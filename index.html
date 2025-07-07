@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Animaciones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Fuentes -->
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+
+  <!-- FAVICON -->
+  <link rel="icon" href="./img/favicon/escudo.png" type="image/x-icon">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Inicio - Los Andes Store</title>
+</head>
+
+<body>
+  <header class="navbar-losandes">
+    <!-- Parte superior: Logo, buscador, carrito -->
+    <div class="navbar-top">
+      <div class="logo">
+        <a href="/">
+          <img src="./img/logo.png" alt="Los Andes Logo">
+        </a>
+      </div>
+      <div class="navbar-tools">
+        <input type="text" placeholder="Buscar productos..." class="buscador-header">
+        <a href="#" class="carrito-header">
+          <img src="./img/icons/carrito.png" alt="Carrito">
+        </a>
+      </div>
+    </div>
+
+    <!-- Parte inferior: Menú -->
+    <div class="navbar-bottom">
+      <nav class="navbar-menu">
+        <ul>
+          <li><a href="#">
+              <h2>INICIO</h2>
+            </a></li>
+          <li><a href="#">
+              <h2>CAMISETAS</h2>
+            </a></li>
+          <li><a href="#productos">
+              <h2>ENTRENAMIENTO</h2>
+            </a></li>
+          <li><a href="#club">
+              <h2>BUZOS</h2>
+            </a></li>
+          <li><a href="#contacto">
+              <h2>ACCESORIOS</h2>
+            </a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <!-- <h2>VESTÍ LA PASIÓN</h2>
+      <h1> MILRAYITAS</h1> -->
+    </section>
+
+    <section class="promos">
+      <div class="promo-item">
+        <img src="./img/icons/envio.png" alt="Envio">
+        <span>ENVÍOS A TODO EL PAÍS</span>
+      </div>
+      <div class="promo-item">
+        <img src="./img/icons/tarjeta-de-credito.png" alt="Cuotas">
+        <span>3 Y 6 CUOTAS FIJAS VISA - MASTERCARD</span>
+      </div>
+      <div class="promo-item">
+        <img src="./img/icons/tarjeta.png" alt="Go Cuotas">
+        <span>4 CUOTAS FIJAS CON DÉBITO</span>
+      </div>
+      <div class="promo-item">
+        <img src="./img/icons/cambios.png" alt="Cambios">
+        <span>CAMBIOS DISPONIBLES</span>
+      </div>
+    </section>
+
+    <section class="cta-banner">
+      <h2 data-aos="fade-down">VESTÍ LA PASIÓN</h2>
+      <h1 class="animate__animated animate__pulse animate__repeat-2"> MILRAYITAS</h1>
+      <!-- <button>Ver Colección Completa</button> -->
+    </section>
+
+    <section class="productos" id="productos">
+      <h2>NUEVA INDUMENTARIA</h2>
+      <div class="grid-productos" data-aos="zoom-in">
+        <div class="card-producto">
+          <a href="/"><img src="./img/nuevaindumentaria/nueva.png" alt=""></a>
+          <div class="info-producto">
+            <h4>CAMISETA TITULAR 2025</h4>
+            <p>$70.000</p>
+          </div>
+        </div>
+        <div class="card-producto">
+          <a href="/"><img src="./img/nuevaindumentaria/tercera.jpg" alt=""></a>
+          <div class="info-producto">
+            <h4>CAMISETA ALTERNATIVA II</h4>
+            <p>$65.000</p>
+          </div>
+        </div>
+        <div class="card-producto">
+          <a href="/"><img src="./img/nuevaindumentaria/buzoazul.jpg" alt=""></a>
+          <div class="info-producto">
+            <h4>BUZO CONDÓR II AZUL</h4>
+            <p>$59.000</p>
+          </div>
+        </div>
+        <div class="card-producto">
+          <a href="/"><img src="./img/nuevaindumentaria/buzocondor.jpg" alt=""></a>
+          <div class="info-producto">
+            <h4>BUZO CONDÓR II ROJO</h4>
+            <p>$59.000</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion-final">
+      <div class="contenido-final">
+        <h2>DE PIEL A PIEL</h2>
+        <p>Llevate la camiseta del partido a tu casa</p>
+        <button>¡La quiero!</button>
+      </div>
+    </section>
+    <section class="seccion-club">
+      <div class="degrade-texto">
+        <h2><small>DE</small>LOMAS<br><small>YO SOY</small></h2>
+      </div>
+      <div class="cards">
+        <a href="camisetas.html" class="card zoom-bg fondo-camisetas">
+          <h3>CAMISETAS</h3>
+        </a>
+        <a href="entrenamiento.html" class="card zoom-bg fondo-entrenamiento">
+          <h3>ENTRENAMIENTO</h3>
+        </a>
+        <a href="merch.html" class="card zoom-bg fondo-buzos">
+          <h3>BUZOS</h3>
+        </a>
+        <a href="deco.html" class="card zoom-bg fondo-deco">
+          <h3>ACCESORIOS</h3>
+        </a>
+      </div>
+    </section>
+
+    <section class="seccion-identidad">
+      <div class="nombre-equipo">
+        <h2 data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">
+          CLUB ATLÉTICO LOS ANDES</h2>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-losandes">
+    <div class="footer-container" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300"
+      data-aos-offset="0">
+
+      <!-- Columna 1: Logo + newsletter -->
+      <div class="footer-col">
+        <img src="./img/logo.png" alt="Los Andes Store" class="footer-logo">
+        <h2>Novedades</h2>
+        <form class="footer-newsletter">
+          <input type="email" placeholder="Ingresá tu e-mail">
+          <button type="submit">→</button>
+        </form>
+      </div>
+
+      <!-- Columna 2: Información -->
+      <div class="footer-col">
+        <h2>Información</h2>
+        <ul>
+          <li><a href="#">Cambios y devoluciones</a></li>
+          <li><a href="#">Envíos y seguimiento</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#">Política de privacidad</a></li>
+        </ul>
+      </div>
+
+      <!-- Columna 3: Contacto -->
+      <div class="footer-col">
+        <h2>Contacto</h2>
+        <p>
+          <a href="https://www.google.com/maps/search/?api=1&query=Av.+Santa+Fe+159,+Lomas+de+Zamora" target="_blank"
+            class="contact-link">
+            <img src="./img/icons/direccion.png" alt="Ubicación">
+            Av. Santa Fe 159, Lomas de Zamora
+          </a>
+        </p>
+
+        <p>
+          <a href="https://wa.me/5491125923691" target="_blank" class="contact-link">
+            <img src="./img/icons/whatsapp.png" alt="WhatsApp">
+            +54 9 11 2592-3691
+          </a>
+        </p>
+
+        <!-- <p>
+          <a href="tel:01142441234" class="contact-link">
+            <img src="./img/whatsapp.png" alt="Teléfono">
+            (011) 4244-1234
+          </a>
+        </p> -->
+
+        <p>
+          <a href="mailto:tiendalosandesoficial@gmail.com" class="contact-link">
+            <img src="./img/icons/mail.png" alt="Correo">
+            tiendalosandesoficial@gmail.com
+          </a>
+        </p>
+      </div>
+
+      <!-- Columna 4: Redes -->
+      <div class="footer-col">
+        <h2>Seguinos</h2>
+        <div class="footer-social">
+          <a href="#"><img src="./img/icons/facebook.png" alt="Facebook"></a>
+          <a href="#"><img src="./img/icons/instagram.png" alt="Instagram"></a>
+          <a href="#"><img src="./img/icons/x.png" alt="Twitter"></a>
+          <a href="#"><img src="./img/icons/youtube.png" alt="YouTube"></a>
+          <a href="#"><img src="./img/icons/tiktok.png" alt="TikTok"></a>
+        </div>
+        <a href="#" class="btn-arrepentimiento">Arrepentimiento de compra</a>
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Club Atlético Los Andes - Tienda Oficial | Desarrollado por Leandro Cruz</p>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ duration: 800 });</script>
+</body>
+
+</html>
